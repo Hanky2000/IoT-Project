@@ -3,7 +3,8 @@
 # Component
 
 # 步驟1
-安裝套件:
+安裝套件 : 
+tensorflow,keras
 
 # Reference
 http://hophd.com/raspberry-pi-stepper-motor-control/

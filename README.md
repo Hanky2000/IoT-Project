@@ -56,7 +56,7 @@ $ python3
 ```
 ./ngrok authtoken {your authtoken}
 ```
-會像這樣
+>會像這樣  
 ![image](https://user-images.githubusercontent.com/86181854/148652370-a90111e4-5ea3-4345-94c1-7e6e07754690.png)
 
 ## 電路圖

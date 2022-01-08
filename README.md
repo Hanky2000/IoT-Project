@@ -2,7 +2,7 @@
 
 # Component
 樹莓派3 *	1  
-Neural Compute Stick 2 *	1  
+Neural Compute Stick 2 * 1  
 麵包板	1  
 OV2640攝影鏡頭模組 *	1  
 步進馬達 *	1  
@@ -41,7 +41,7 @@ from tensorflow import keras
 若無錯誤表示成功
 
 # 步驟二:安裝linebot，互動用  
-參考以下教學
+參考以下教學:  
 https://www.learncodewithmike.com/2020/06/python-line-bot.html  
 https://ithelp.ithome.com.tw/articles/10238680  
 https://ithelp.ithome.com.tw/articles/10238857

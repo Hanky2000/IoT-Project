@@ -57,7 +57,10 @@ $ python3
 ./ngrok authtoken {your authtoken}
 ```
 >會像這樣  
-![image](https://user-images.githubusercontent.com/86181854/148652370-a90111e4-5ea3-4345-94c1-7e6e07754690.png)
+![image](https://user-images.githubusercontent.com/86181854/148652370-a90111e4-5ea3-4345-94c1-7e6e07754690.png)  
+>Webhook URL改成上面Forwarding 的URL
+![image](https://user-images.githubusercontent.com/86181854/148653996-d587deac-be12-4f6e-8983-c4c604c4012f.png)
+>再從另一個terminal執行py檔
 
 ### 電路圖
 ![driver_and_motor](https://user-images.githubusercontent.com/86181854/148636297-a92a598e-bdae-4780-8f80-d985960a8f1f.jpg)

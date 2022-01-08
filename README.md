@@ -26,6 +26,10 @@ $ sudo pip install h5py==2.9.0
 $ sudo pip install pybind11  
 $ pip install -U --user six wheel mock
 
+### (3)在樹苺派下載
+連結:https://github.com/lhelontra/tensorflow-on-arm/releases  
+我選tensorflow-2.0.0-cp37-none-linux_armv7l.whl這個套件下載
+
 ## 電路圖
 ![driver_and_motor](https://user-images.githubusercontent.com/86181854/148636297-a92a598e-bdae-4780-8f80-d985960a8f1f.jpg)
 

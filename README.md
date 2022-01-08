@@ -40,6 +40,12 @@ $ python3
 from tensorflow import keras  
 若無錯誤表示成功
 
+# 步驟二:安裝linebot，互動用  
+參考以下教學
+https://www.learncodewithmike.com/2020/06/python-line-bot.html  
+https://ithelp.ithome.com.tw/articles/10238680  
+https://ithelp.ithome.com.tw/articles/10238857
+
 ## 電路圖
 ![driver_and_motor](https://user-images.githubusercontent.com/86181854/148636297-a92a598e-bdae-4780-8f80-d985960a8f1f.jpg)
 

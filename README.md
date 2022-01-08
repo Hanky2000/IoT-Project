@@ -13,7 +13,7 @@ PP塑膠板(白色、5mm) *	1
 泡棉膠(24mm*5m) *	1  
 保麗龍膠 * 1  
 
-# 步驟1
+# 步驟一
 安裝套件 : 
 tensorflow,keras
 ### (1)安裝必要的依賴項
@@ -29,6 +29,15 @@ $ pip install -U --user six wheel mock
 ### (3)在樹苺派下載
 連結:https://github.com/lhelontra/tensorflow-on-arm/releases  
 我選tensorflow-2.0.0-cp37-none-linux_armv7l.whl這個套件下載
+
+### (4)安裝套件
+$ cd Downloads
+$ sudo pip3 install tensorflow-2.0.0-cp37-none-linux_armv7l.whl
+$ sudo pip3 install keras
+
+### (5)確認套件是否安裝
+$ python3 
+
 
 ## 電路圖
 ![driver_and_motor](https://user-images.githubusercontent.com/86181854/148636297-a92a598e-bdae-4780-8f80-d985960a8f1f.jpg)

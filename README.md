@@ -31,13 +31,13 @@ $ pip install -U --user six wheel mock
 我選tensorflow-2.0.0-cp37-none-linux_armv7l.whl這個套件下載
 
 ### (4)安裝套件
-$ cd Downloads
-$ sudo pip3 install tensorflow-2.0.0-cp37-none-linux_armv7l.whl
+$ cd Downloads  
+$ sudo pip3 install tensorflow-2.0.0-cp37-none-linux_armv7l.whl  
 $ sudo pip3 install keras
 
 ### (5)確認套件是否安裝
-$ python3 
-from tensorflow import keras 
+$ python3  
+from tensorflow import keras  
 若無錯誤表示成功
 
 ## 電路圖

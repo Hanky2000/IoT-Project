@@ -16,10 +16,10 @@ PP塑膠板(白色、5mm) *	1
 # 步驟1
 安裝套件 : 
 tensorflow,keras
-### (1）安裝必要的依賴項
+### (1)安裝必要的依賴項
 
 $ sudo apt-get install -y libhdf5-dev libc-ares-dev libeigen3-dev gcc gfortran python-dev libgfortran5 \libatlas3-base libatlas-base-dev libopenblas-dev libopenblas-base libblas-dev \liblapack-dev cython openmpi-bin libopenmpi-dev libatlas-base-dev python3-dev  
-### (2) 安裝相關python包
+### (2)安裝相關python包
 $ sudo pip install keras_applications==1.0.8 --no-deps  
 $ sudo pip install keras_preprocessing==1.1.0 --no-deps  
 $ sudo pip install h5py==2.9.0  

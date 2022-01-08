@@ -49,7 +49,7 @@ $ python3
 參考以下教學:  
 >https://www.learncodewithmike.com/2020/06/python-line-bot.html  
 >https://ithelp.ithome.com.tw/articles/10238680  
->https://ithelp.ithome.com.tw/articles/10238857
+>https://ithelp.ithome.com.tw/articles/10238857  
 另外可註冊ngrok帳號讓sesstion沒有2小時限制
 
 註冊好後輸入以下指令再執行程式

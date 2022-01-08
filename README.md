@@ -52,10 +52,11 @@ $ python3
 >https://ithelp.ithome.com.tw/articles/10238857  
 另外可註冊ngrok帳號讓sesstion沒有2小時限制
 
-註冊好後輸入以下指令再執行程式
+註冊好後輸入以下指令再連線
 ```
 ./ngrok authtoken {your authtoken}
 ```
+會像這樣
 ![image](https://user-images.githubusercontent.com/86181854/148652370-a90111e4-5ea3-4345-94c1-7e6e07754690.png)
 
 ## 電路圖

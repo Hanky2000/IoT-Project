@@ -1,4 +1,4 @@
-# IoT-Project
+# IoT-Project_PiFinder
 
 # Component
 樹莓派3 *	1  

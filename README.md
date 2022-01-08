@@ -1,8 +1,8 @@
 # IoT-Project
 
 # Component
-樹莓派3 *	1
-Neural Compute Stick 2 *	1
+樹莓派3 *	1  
+  Neural Compute Stick 2 *	1  
 麵包板	1
 OV2640攝影鏡頭模組 *	1
 步進馬達 *	1

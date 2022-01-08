@@ -50,6 +50,13 @@ $ python3
 >https://www.learncodewithmike.com/2020/06/python-line-bot.html  
 >https://ithelp.ithome.com.tw/articles/10238680  
 >https://ithelp.ithome.com.tw/articles/10238857
+另外可註冊ngrok帳號讓sesstion沒有2小時限制
+
+註冊好後輸入以下指令再執行程式
+```
+./ngrok authtoken {your authtoken}
+```
+![image](https://user-images.githubusercontent.com/86181854/148652370-a90111e4-5ea3-4345-94c1-7e6e07754690.png)
 
 ## 電路圖
 ![driver_and_motor](https://user-images.githubusercontent.com/86181854/148636297-a92a598e-bdae-4780-8f80-d985960a8f1f.jpg)

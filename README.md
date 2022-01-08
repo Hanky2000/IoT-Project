@@ -29,7 +29,7 @@ $ sudo pip install pybind11
 $ pip install -U --user six wheel mock
 ```
 ### (3)在樹苺派下載
-連結:https://github.com/lhelontra/tensorflow-on-arm/releases  
+>連結:https://github.com/lhelontra/tensorflow-on-arm/releases  
 我選tensorflow-2.0.0-cp37-none-linux_armv7l.whl這個套件下載
 
 ### (4)安裝套件
@@ -46,7 +46,7 @@ $ python3
 ```
 若無錯誤表示成功
 
-# 步驟二:安裝linebot，互動用  
+# 步驟二:安裝linebot
 參考以下教學:  
 >https://www.learncodewithmike.com/2020/06/python-line-bot.html  
 >https://ithelp.ithome.com.tw/articles/10238680  

@@ -37,7 +37,7 @@ $ sudo pip3 install keras
 
 ### (5)確認套件是否安裝
 $ python3 
->>>from tensorflow import keras 
+>>> from tensorflow import keras 
 
 
 ## 電路圖

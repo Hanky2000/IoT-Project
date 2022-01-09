@@ -65,6 +65,8 @@ $ python3
 >再從另一個terminal執行py檔
 ![image](https://user-images.githubusercontent.com/86181854/148667155-e177ca73-4dbe-4631-9a02-877ec03608eb.png)
 
+## 步驟三:測試鏡頭
+
 ### 電路圖
 ![driver_and_motor](https://user-images.githubusercontent.com/86181854/148636297-a92a598e-bdae-4780-8f80-d985960a8f1f.jpg)
 

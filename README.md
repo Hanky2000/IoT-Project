@@ -63,7 +63,6 @@ $ python3
 >Webhook URL改成上面Forwarding 的URL再加上/callback
 ![image](https://user-images.githubusercontent.com/86181854/148666812-2acbe044-cfc7-4d30-9c23-b3a0b141b361.png)
 >再從另一個terminal執行py檔
-![image](https://user-images.githubusercontent.com/86181854/148667155-e177ca73-4dbe-4631-9a02-877ec03608eb.png)
 ![image](https://user-images.githubusercontent.com/86181854/148670129-b6fbabb0-4ec5-45cc-b6ab-6b9e8a51682b.png)
 
 ## 步驟三:測試鏡頭

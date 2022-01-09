@@ -82,7 +82,7 @@ $ sudo pip3 install opencv-python
 ![driver_and_motor](https://user-images.githubusercontent.com/86181854/148636297-a92a598e-bdae-4780-8f80-d985960a8f1f.jpg)
 
 ### 步驟四：撰寫人體感測與鏡頭旋轉程式
-# import the necessary packages
+> import the necessary packages
 ```
 import numpy as np
 import cv2

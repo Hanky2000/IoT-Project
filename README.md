@@ -3,6 +3,8 @@
 有時候會找不到東西在哪裡，自己找有時候又會找很久，因此想做一個可以幫人找物品的工具，節省找東西的時間。
 
 ## Component
+### Hardware  
+
 樹莓派3 *	1  
 Neural Compute Stick 2 * 1  
 麵包板	1  
@@ -14,6 +16,11 @@ OV2640攝影鏡頭模組 *	1
 PP塑膠板(白色、5mm) *	1  
 泡棉膠(24mm*5m) *	1  
 保麗龍膠 * 1  
+
+### Software  
+tensorflow  
+keras  
+openCV
 
 ## 步驟一 : 安裝套件 : tensorflow,keras
 
@@ -81,24 +88,16 @@ $ sudo pip3 install opencv-python
 ### 電路圖
 ![driver_and_motor](https://user-images.githubusercontent.com/86181854/148636297-a92a598e-bdae-4780-8f80-d985960a8f1f.jpg)
 
-### 步驟四：撰寫人體感測與鏡頭旋轉程式
-> import the necessary packages
+## 步驟四：撰寫人體感測與鏡頭旋轉程式
 ```
-import numpy as np
-import cv2
-from keras import load_model
-from PIL import Image, ImageOps
-```
-```
-> import the necessary packages
+# import the necessary packages
 import numpy as np
 import cv2
 from keras import load_model
 from PIL import Image, ImageOps 
 ```
-
-> initialize the HOG descriptor/person detector
 ```
+# initialize the HOG descriptor/person detector
 hog = cv2.HOGDescriptor()
 hog.setSVMDetector(cv2.HOGDescriptor_getDefaultPeopleDetector())
 ```
@@ -113,8 +112,6 @@ out = cv2.VideoWriter(
     cv2.VideoWriter_fourcc(*'MJPG'),
     15.,
     (640,480))
-
-
 
 while(True):
     # Capture frame-by-frame
@@ -178,7 +175,8 @@ cv2.waitKey(1)
 ```
 
 
-
+## 步驟五：製作硬體
+運用紙板黏上泡棉膠，一邊放樹梅派和固定住的鏡頭，一邊黏著兩根竹筷，竹筷夾住步進馬達的轉軸以跟著旋轉。
 
 
 ## Reference

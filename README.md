@@ -60,7 +60,7 @@ $ python3
 ```
 >會像這樣  
 ![image](https://user-images.githubusercontent.com/86181854/148666751-5c2caaba-58fd-4e25-b4e4-57cd3bef1a9e.png)
->Webhook URL改成上面Forwarding 的URL
+>Webhook URL改成上面Forwarding 的URL再加上/callback
 ![image](https://user-images.githubusercontent.com/86181854/148666812-2acbe044-cfc7-4d30-9c23-b3a0b141b361.png)
 >再從另一個terminal執行py檔
 

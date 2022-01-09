@@ -66,7 +66,7 @@ $ python3
 
 >再從另一個terminal執行py檔
 >```
->$ python3 main.py
+>$ sudo python3 main.py
 >```
 >![image](https://user-images.githubusercontent.com/86181854/148670887-4f8b9a1c-25a8-481c-ae4b-7b543b32085f.png)  
 
@@ -74,7 +74,10 @@ $ python3
 ![image](https://user-images.githubusercontent.com/86181854/148670917-d3df5cdc-44a4-4d29-85aa-e5bbbde828a0.png)
 顯示success就連接成功啦
 ## 步驟三:測試鏡頭
-
+# 安裝openCV  
+```
+$ sudo pip3 install opencv-python
+```
 ### 電路圖
 ![driver_and_motor](https://user-images.githubusercontent.com/86181854/148636297-a92a598e-bdae-4780-8f80-d985960a8f1f.jpg)
 

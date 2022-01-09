@@ -86,9 +86,20 @@ $ python3
 $ sudo pip3 install opencv-python
 ```
 ### 電路圖
+> IN1到IN4分別接Physical pins 8,10,12,16  
+> +接Physical pins4，-接6Physical pins接地  
+> 蜂鳴器+接Physical pins9，-接Physical pins7  
 ![driver_and_motor](https://user-images.githubusercontent.com/86181854/148636297-a92a598e-bdae-4780-8f80-d985960a8f1f.jpg)
 
-## 步驟四：撰寫人體感測與鏡頭旋轉程式
+## 步驟四：在teachable machine訓練模組後匯出
+![image](https://user-images.githubusercontent.com/86181854/148686926-a7478c0f-0088-4b2b-8134-e4b389d6d83e.png)
+>將Keras和Savedmodel兩種都下載
+![image](https://user-images.githubusercontent.com/86181854/148687067-7508a7b8-8709-4974-90bb-f554063cfeb6.png)
+
+>將圖片和keras_model.h5存在與py檔相同目錄
+![2022-01-09_22h38_19](https://user-images.githubusercontent.com/86181854/148687027-6f88401b-bdef-40c2-bb15-af4c7e65c804.png)
+
+## 步驟五：撰寫人體感測與鏡頭旋轉程式
 ```
 #!/usr/bin/python
 # Import required libraries
@@ -103,7 +114,7 @@ gpio.setmode(gpio.BOARD)
 gpio.setwarnings(False) 
 # Define GPIO signals to use
 # Physical pins 8,10,12,16
-# GPIO17,GPIO22,GPIO23,GPIO24
+# GPIO14,GPIO15,GPIO18,GPIO23
 pin = [8,10,12,16]
 piano = list([261, 293, 329, 349, 391, 440, 493, 523])
 for i in range(4):
@@ -137,10 +148,6 @@ def play(pitch, sec):
         time.sleep(half_pitch)
         gpio.output(7, gpio.LOW)
         time.sleep(half_pitch)
- 
-    
-
-
 
 from flask import Flask, request, abort
 from linebot import (
@@ -179,21 +186,6 @@ def handle_message(event):
     message = event.message.text
     
     set_motor('0000')
-    '''
-    #settings.py
-    STATIC_URL = '/static/'
-    STATICFILES_DIRS = [
-        os.path.join(BASE_DIR,'static')
-    ]
-    
-    #urls.py
-    #import static
-    from django.conf.urls.static import static
-    from django.conf import settings
-    
-    #加入這一行
-    urlpatterns+=static(settings.STATIC_URL, document_root=settings.STATICFILES_DIRS)
-    '''
     if(message=="phone"):
         lookfor(message)
         line_bot_api.reply_message(reply_token, TextSendMessage(text = "find"))
@@ -264,12 +256,12 @@ gpio.cleanup()
 ```
 
 
-## 步驟五：製作硬體
+## 步驟六：製作硬體
 運用紙板黏上泡棉膠，一邊放樹梅派和固定住的鏡頭，一邊黏著兩根竹筷，竹筷夾住步進馬達的轉軸以跟著旋轉。
 
 
 ## Reference
 http://hophd.com/raspberry-pi-stepper-motor-control/  
 https://s761111.gitbook.io/raspi-sensor/feng-qi  
-https://www.796t.com/article.php?id=45833
-
+https://www.796t.com/article.php?id=45833  
+https://github.com/weberlu88/2019-Fall-MIS-IoT-Project/blob/master/opencv_test.py?fbclid=IwAR3I-6kJx1K1zPu6S72NhBrl_9VQ1bEzyMkETBUo3KHCcHOpyZ_lHW1CnOY

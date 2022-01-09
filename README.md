@@ -74,7 +74,7 @@ $ python3
 ![image](https://user-images.githubusercontent.com/86181854/148670917-d3df5cdc-44a4-4d29-85aa-e5bbbde828a0.png)
 顯示success就連接成功啦
 ## 步驟三:測試鏡頭
-# 安裝openCV  
+### 安裝openCV  
 ```
 $ sudo pip3 install opencv-python
 ```

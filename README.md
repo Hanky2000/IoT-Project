@@ -83,10 +83,12 @@ $ sudo pip3 install opencv-python
 
 ### 步驟四：撰寫人體感測與鏡頭旋轉程式
 # import the necessary packages
+```
 import numpy as np
 import cv2
 from keras import load_model
 from PIL import Image, ImageOps
+```
 
 ## Reference
 http://hophd.com/raspberry-pi-stepper-motor-control/  

@@ -66,7 +66,7 @@ $ python3
 
 >再從另一個terminal執行py檔
 >```
->$ sudo python3 main.py
+>$ python3 main.py
 >```
 >![image](https://user-images.githubusercontent.com/86181854/148670887-4f8b9a1c-25a8-481c-ae4b-7b543b32085f.png)  
 

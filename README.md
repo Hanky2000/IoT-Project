@@ -261,7 +261,7 @@ gpio.cleanup()
 ## 實做照片
 ![63632](https://user-images.githubusercontent.com/86181854/148909013-a13ef4d5-0575-4acf-a296-4ae1dd781bf7.jpg)
 ## Project Demo   
-
+https://youtu.be/nRdK89kzAxc
 ## Reference
 http://hophd.com/raspberry-pi-stepper-motor-control/  
 https://s761111.gitbook.io/raspi-sensor/feng-qi  

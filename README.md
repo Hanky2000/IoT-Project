@@ -259,7 +259,7 @@ gpio.cleanup()
 ## 步驟六：製作硬體
 運用紙板黏上泡棉膠，一邊放樹梅派和固定住的鏡頭，一邊黏著兩根竹筷，竹筷夾住步進馬達的轉軸以跟著旋轉。
 ## 實做照片
-![63632](https://user-images.githubusercontent.com/86181854/148909013-a13ef4d5-0575-4acf-a296-4ae1dd781bf7.jpg)
+![63695](https://user-images.githubusercontent.com/86181854/148944521-d280edc2-7748-40d0-8434-f52861689885.jpg)
 ## Project Demo   
 https://youtu.be/nRdK89kzAxc
 ## Reference
